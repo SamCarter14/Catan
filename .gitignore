@@ -5,6 +5,7 @@
 [Bb]uilds/
 obj/
 Library/PackageCache/
+
 # Ignore user settings
 UserSettings/
 
@@ -22,6 +23,7 @@ Thumbs.db
 # Ignore Unity-specific logs
 *.log
 *.stackdump
+memory crashes/
 
 # Ignore generated files (Unity project files, etc.)
 *.csproj
@@ -29,9 +31,9 @@ Thumbs.db
 *.user
 *.userprefs
 
+# Ignore Xcode (iOS/macOS builds)
+*.xcworkspace/
+*.xcodeproj/
 
-# Ignore macOS-specific files
-.DS_Store
-
-# Ignore the CatanGame.app (built application)
-CatanGame.app/
+# Ignore Android Keystore
+*.keystore
