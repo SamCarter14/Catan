@@ -1,0 +1,37 @@
+# Ignore Unity-specific folders
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+obj/
+Library/PackageCache/
+# Ignore user settings
+UserSettings/
+
+# Ignore Unity's packages folder (dependencies)
+Packages/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Visual Studio and JetBrains Rider files
+.vs/
+.idea/
+
+# Ignore Unity-specific logs
+*.log
+*.stackdump
+
+# Ignore generated files (Unity project files, etc.)
+*.csproj
+*.sln
+*.user
+*.userprefs
+
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore the CatanGame.app (built application)
+CatanGame.app/
